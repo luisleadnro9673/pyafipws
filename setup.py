@@ -96,3 +96,8 @@ setup(
     keywords="webservice electronic invoice pdf traceability",
     **kwargs
 )
+
+# -----------------------------------------------
+# FIX: Cambiado de print "..." a print("...") para Python 3
+# -----------------------------------------------
+print("IMPORTANTE: no se incluye el diseñador de plantillas PDF")
